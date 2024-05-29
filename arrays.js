@@ -123,13 +123,50 @@ const movies = [
 
 // Indexof
 
-const admins = [2, 1, 5];
+// const admins = [2, 1, 5];
 
-const user = {
-    name: 'XYZ',
-    id: 6
-}
+// const user = {
+//     name: 'XYZ',
+//     id: 6
+// }
 
-const isAdmin = admins.indexOf(user.id) > -1;
-console.log(admins.indexOf(user.id));
+// const isAdmin = admins.indexOf(user.id) > -1;
+// console.log(admins.indexOf(user.id));
 
+// includes
+// console.log(admins.includes(user.id));
+
+// find
+
+// const users = [
+//     { 
+//         name: 'xyz',
+//         id: 1
+//     },
+//     { 
+//         name: 'abc',
+//         id: 2
+//     },
+//     { 
+//         name: 'pqr',
+//         id: 3
+//     }
+// ];
+
+// const myuser = users.find((user) => {
+//     if(user.id === 2) {
+//         return true;
+//     }
+//     return false;
+// });
+
+// console.log(myuser);
+
+// sort
+// const names = ['shiv', 'jeel'];
+// console.log(names.sort());
+
+// splice - to delete items from the array
+const names = ['shiv', 'jeel', 'vrushti'];
+names.splice(1, 1);
+console.log(names);
