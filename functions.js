@@ -57,3 +57,32 @@
 // console.log(result);
 
 // IIFE ( Immediately invoked function expression)
+
+// (function setup() {
+//     console.log('setup done');
+// })();
+
+// Arrow function
+
+// const login = () => {
+//     console.log('logged in');
+// }
+// login();
+
+// const sum = (num1, num2) => {
+//     return num1 + num2;
+// }
+
+// const result = sum(4, 5);
+
+// console.log(result);
+
+// good practices
+
+// naming
+// show, get, calc 
+// 2. one function - one action, give name according to what funtion does.
+// 3. function name should be descriptive
+
+
+
